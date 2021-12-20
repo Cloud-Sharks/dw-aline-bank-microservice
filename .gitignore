@@ -1,3 +1,6 @@
+.env*
+!.env-example
+
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -13,7 +16,6 @@ target/
 .springBeans
 .sts4-cache
 *.properties
-application.yml
 !*-test.properties
 
 ### IntelliJ IDEA ###
