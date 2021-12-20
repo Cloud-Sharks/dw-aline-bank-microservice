@@ -12,4 +12,4 @@ services:
     env_file:
       - .env
     ports:
-      - 8083:8083
+      - 8083:${APP_PORT}
